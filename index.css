@@ -1,12 +1,22 @@
-body{
+body {
     margin: 0;
     font-size: 15px;
 }
-.display-top{
+
+
+
+
+.bottom-container {
+    justify-content: center;
+    min-height: 19;
+}
+
+.display-top {
     position: relative;
     
 }
-.inImage{
+
+.inImage {
     position: absolute;
     bottom: 10%;
     left: 0;
@@ -20,4 +30,36 @@ body{
 h2{
     font-size: 30px;
     margin: 10px 0;
+}
+
+
+h2#description-pictures-1{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h2#description-pictures-2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+}
+
+
+.card {
+    padding: 16px;
+    max-width: 45%;
+    position: relative;
+    justify-content: center;
+    min-height: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+} 
+
+.row{
+    display: flex;
 }
